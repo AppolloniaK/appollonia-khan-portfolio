@@ -5,14 +5,12 @@
   }
   
   body {
-    margin: 60px auto;
-    max-width: 800px;
+    margin: 100px;
   }
   
   h1,
   h2,
   h3 {
-    text-align: center;
     margin: 0;
   }
   
@@ -30,12 +28,8 @@
   }
   
   p {
-    background: var(--secondary-color);
-    padding: 20px;
-    border-radius: 4px;
     font-size: 18px;
     line-height: 1.5;
-    text-align: center;
   }
   
   .navigation-links {
@@ -46,10 +40,6 @@
   
   .navigation-links a {
     margin: 20px;
-    border-radius: 4px;
-    padding: 20px 15px;
-    text-decoration: none;
-    text-transform: capitalize;
   }
   
   .contact-link {
@@ -88,5 +78,24 @@
   
   .email-link:hover {
     text-decoration: underline;
+  }
+  
+  .primary-link {
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: white;
+  }
+  
+  .secondary-link {
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
   }
   
