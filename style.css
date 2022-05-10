@@ -31,7 +31,19 @@
     font-size: 18px;
     line-height: 1.5;
   }
-  
+
+  .akhan-logo {
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+    width: 50px; /* Set a small width */
+  }
+
+  .navbar-brand {
+    display: flex;
+    justify-content: flex-end;
+  }
+
   .navigation-links {
     display: flex;
     margin-top: 40px;
