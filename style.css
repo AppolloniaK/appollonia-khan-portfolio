@@ -115,6 +115,13 @@
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
   }
+
+  .work-inquiry {
+    text-align: left;
+    color:black;
+    font-weight: bold;
+    size: 48px;
+  }
   
   @media (max-width: 768px) {
     h1,
