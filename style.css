@@ -29,7 +29,7 @@
   
   p {
     font-size: 18px;
-    line-height: 1.5;
+    line-height: 1;
   }
 
   footer {
@@ -117,12 +117,22 @@
   }
 
   .work-inquiry {
-    text-align: left;
+    text-align: center;
     color:black;
     font-weight: bold;
     font-family: "playfair display";
-    font-size: 48px;
-    margin-left: 5%;
+    font-size: 48px;  
+    padding-bottom: 0%;  
+  }
+
+  .lets-work{
+    text-align: center;
+    color: #6c63ff;
+    opacity: 0.4;
+    font-weight: bold;
+    font-family: "playfair display";
+    font-size: 28px; 
+    padding-bottom: 0%;   
   }
   
   @media (max-width: 768px) {
